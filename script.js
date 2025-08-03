@@ -151,7 +151,7 @@ const Register = {
       <form @submit.prevent="submit">
         <div class="mb-3">
           <label>Email</label>
-          <input v-model="email" class="form-control" required />
+          <input type="email" v-model="email" class="form-control" required />
         </div>
         <div class="mb-3">
           <label>Password</label>
@@ -186,7 +186,7 @@ const Login = {
       <form @submit.prevent="submit">
         <div class="mb-3">
           <label>Email</label>
-          <input v-model="email" class="form-control" required />
+          <input type="mail" v-model="email" class="form-control" required />
         </div>
         <div class="mb-3">
           <label>Password</label>
